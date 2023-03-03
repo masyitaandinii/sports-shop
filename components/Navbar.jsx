@@ -5,6 +5,7 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 
 import NavLogo from "../public/assets/navLogo.png";
+import fav from "../public/fav.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -41,8 +42,8 @@ const Navbar = () => {
           <Image
             src={NavLogo}
             alt="/"
-            width="50"
-            height="50"
+            width="150"
+            height="150"
             className="cursor-pointer"
           />
         </Link>
@@ -52,7 +53,7 @@ const Navbar = () => {
               <Link href="/">Home</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/#projects">Projects</Link>
+              <Link href="/#projects">Products</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
               <Link href="/#about">About</Link>
@@ -87,7 +88,7 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href="/">
-                <Image src={NavLogo} width="35" height="35" alt="/" />
+                <Image src={fav} width="35" height="35" alt="/" />
               </Link>
               <div
                 onClick={handleNav}
@@ -111,7 +112,7 @@ const Navbar = () => {
               </Link>
               <Link href="/#projects">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Projects
+                  Products
                 </li>
               </Link>
               <Link href="/#about">

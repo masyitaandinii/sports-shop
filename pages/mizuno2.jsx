@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React, { useState } from "react";
-import mizuno2Img from "../public/assets/projects/mizuno2.png";
+import mizuno2bImg from "../public/assets/projects/mizuno2b.png";
 import Link from "next/link";
 import { TiDelete } from "react-icons/ti";
 import { AiFillMinusCircle } from "react-icons/ai";
@@ -28,7 +28,7 @@ const mizuno1 = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={mizuno2Img}
+          src={mizuno2bImg}
           alt="/"
         />
 
@@ -56,6 +56,10 @@ const mizuno1 = () => {
                 <tr>
                   <th className="text-left">Country Size</th>
                   <td>EURO</td>
+                </tr>
+                <tr>
+                  <th className="text-left">Category</th>
+                  <td>Indoor</td>
                 </tr>
                 <tr>
                   <th className="text-left">Brand</th>

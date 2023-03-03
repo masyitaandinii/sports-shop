@@ -4,7 +4,7 @@ import { FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white">
+    <footer className="bg-[#d1d5db] text-white">
 	<div className="container flex items-center justify-center flex-col p-4 mx-auto md:p-8 lg:flex-row divide-gray-400">
 		<div className="flex flex-col justify-center pt-6 lg:pt-0">
 			<div className="flex justify-center space-x-4">
@@ -22,7 +22,7 @@ const Footer = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300  bg-black'>
                 <FaGithub />
               </div>
             </a>
@@ -31,7 +31,7 @@ const Footer = () => {
               target='_blank'
               rel='noreferrer'
             >
-              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300  bg-black'>
                 <FaInstagram />
               </div>
             </a>

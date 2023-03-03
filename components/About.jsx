@@ -9,18 +9,15 @@ const About = () => {
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2'>
           <p className='uppercase text-xl tracking-widest text-[#DF0000]'>
-            About Me
+            About Us
           </p>
-          <h2 className='py-4'>Who I Am</h2>
-          <p className='py-2 text-gray-600'>
-          My full name is Masyita Andini Larasati. I live in Malang and was born in Makassar, on September 21, 2005. 
-          I like everything about sports, especially volleyball. 
-          I don&apos;t have much knowledge about the world of programming yet but I am interested in the IT world. 
-          Moreover, I am also deepening my skills in photography and graphic design
+          <p className='py-2 text-gray-600 text-20'>
+          We makes a wide variety of sports equipment and sportswear for badminton, baseball, boxing, cycling, association football, gridiron football, 
+          futsal, golf, judo, rugby, running, skiing, athletics, swimming, table tennis, tennis and volleyball.
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-[#DF0000] underline cursor-pointer'>
-              Check out some of my portofolio.
+              Check out some of our product
             </p>
           </Link>
         </div>
