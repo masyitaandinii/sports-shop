@@ -15,7 +15,7 @@ const About = () => {
           We makes a wide variety of sports equipment and sportswear for badminton, baseball, boxing, cycling, association football, gridiron football, 
           futsal, golf, judo, rugby, running, skiing, athletics, swimming, table tennis, tennis and volleyball.
           </p>
-          <Link href='/#projects'>
+          <Link href='/#products'>
             <p className='py-2 text-[#DF0000] underline cursor-pointer'>
               Check out some of our product
             </p>

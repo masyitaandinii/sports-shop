@@ -1,13 +1,13 @@
 import Image from "next/image";
 import React, { useState } from "react";
-import mizuno4bImg from "../public/assets/projects/mizuno4b.png";
+import mizuno5bImg from "../public/assets/projects/mizuno5b.png";
 import Link from "next/link";
 import { TiDelete } from "react-icons/ti";
 import { AiFillMinusCircle } from "react-icons/ai";
 import { AiFillPlusCircle } from "react-icons/ai";
 import { RiRadioButtonFill } from "react-icons/ri";
 
-const mizuno4 = () => {
+const mizuno5 = () => {
   const [count, setCount] = useState(0);
 
   const incrementCount = () => {
@@ -30,14 +30,14 @@ const mizuno4 = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={mizuno4bImg}
+          src={mizuno5bImg}
           alt="/"
         />
         <div className="absolute top-[80%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2">
-            MIZUNO WAVE CLAW 2-SNOW WHITE/PEACE BLUE/DRIVEN PINK
+            MIZUNO WAVE THUNDERSTORM MID-WHITE/GOLD/SNOW WHITE
           </h2>
-          <h3>Rp 1.439.840</h3>
+          <h3>Rp 1.619.820</h3>
         </div>
       </div>
 
@@ -46,15 +46,11 @@ const mizuno4 = () => {
           <p>Product</p>
           <h2>Overview</h2>
           <p className="mt-5">
-          SPEED & LIGHT WEIGHT
+            FAST AS LIGHTNING.
             <br />
-            By using a separate sole, it features a light
-            weight and enables smooth starts. MIZUNO ENERZY Foam: Equipped
-            with MIZUNO ENERZY at the ball of the foot for excellent cushioning
-            and energy return. Supports sudden starts during play by absorbing
-            shock when making contact with the ground and high energy return.
-            New Heel Structure: Features an enhanced fit on the foot through a
-            review of the insertion method of the heel sponge.
+            This shoe is perfect for players seeking something more advanced
+            than the entry level model. Mizuno wave combins stability and
+            cushioning for the heel, while plate supports quicker movement
           </p>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
@@ -68,7 +64,7 @@ const mizuno4 = () => {
                 <RiRadioButtonFill className="pr-1" /> Country Size : EURO
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Category : Badminton
+                <RiRadioButtonFill className="pr-1" /> Category : Indoor
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Brand : Mizuno
@@ -82,7 +78,7 @@ const mizuno4 = () => {
         <div className="pt-6">
           <div className="flex ">
             <button onClick={incrementCount}>
-              <AiFillPlusCircle size="40" />
+              <AiFillPlusCircle size='40'/>
             </button>
             <h1 className="text-2xl ml-4 mr-4">{count}</h1>
             <button
@@ -90,10 +86,10 @@ const mizuno4 = () => {
               className="mr-2"
               disabled={count <= 0}
             >
-              <AiFillMinusCircle size="40" />
+              <AiFillMinusCircle size='40'/>
             </button>
             <button onClick={resetCount}>
-              <TiDelete size="40" />
+              <TiDelete size='40'/>
             </button>
                       
           </div>
@@ -106,4 +102,4 @@ const mizuno4 = () => {
   );
 };
 
-export default mizuno4;
+export default mizuno5;

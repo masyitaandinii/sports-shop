@@ -1,13 +1,13 @@
 import Image from "next/image";
 import React, { useState } from "react";
-import mizuno4bImg from "../public/assets/projects/mizuno4b.png";
+import mizuno6bImg from "../public/assets/projects/mizuno6b.png";
 import Link from "next/link";
 import { TiDelete } from "react-icons/ti";
 import { AiFillMinusCircle } from "react-icons/ai";
 import { AiFillPlusCircle } from "react-icons/ai";
 import { RiRadioButtonFill } from "react-icons/ri";
 
-const mizuno4 = () => {
+const mizuno6 = () => {
   const [count, setCount] = useState(0);
 
   const incrementCount = () => {
@@ -30,14 +30,14 @@ const mizuno4 = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={mizuno4bImg}
+          src={mizuno6bImg}
           alt="/"
         />
         <div className="absolute top-[80%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2">
-            MIZUNO WAVE CLAW 2-SNOW WHITE/PEACE BLUE/DRIVEN PINK
+            MIZUNO WAVE RIDER 26 2E-SUPER SONIC/ICE WATER/CHERRY TOMATO
           </h2>
-          <h3>Rp 1.439.840</h3>
+          <h3>Rp 1.279.840</h3>
         </div>
       </div>
 
@@ -46,15 +46,15 @@ const mizuno4 = () => {
           <p>Product</p>
           <h2>Overview</h2>
           <p className="mt-5">
-          SPEED & LIGHT WEIGHT
+            SMOOTH & STABIL
             <br />
-            By using a separate sole, it features a light
-            weight and enables smooth starts. MIZUNO ENERZY Foam: Equipped
-            with MIZUNO ENERZY at the ball of the foot for excellent cushioning
-            and energy return. Supports sudden starts during play by absorbing
-            shock when making contact with the ground and high energy return.
-            New Heel Structure: Features an enhanced fit on the foot through a
-            review of the insertion method of the heel sponge.
+            This shoe is perfect from beginners to dedicated runners training
+            for marathons. The MIZUNOThis shoe is perfect from beginners to
+            dedicated runners training for marathons. The MIZUNOENERZY midsole
+            is 2 mm thicker than the previous model, boosting the cushioning and
+            energy return,by giving a softer feel, and providing a spring-like
+            propulsion. Enjoy the signature running comfort ofWAVE RIDER with
+            enhanced smoothness and stability.
           </p>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
@@ -62,13 +62,13 @@ const mizuno4 = () => {
             <p className="text-left font-bold pb-2">Spesification</p>
             <div className="grid grid-cols-3 md:grid-cols-1 ">
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Colour : White
+                <RiRadioButtonFill className="pr-1" /> Colour : Blue
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Country Size : EURO
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Category : Badminton
+                <RiRadioButtonFill className="pr-1" /> Category : Runner
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Brand : Mizuno
@@ -106,4 +106,4 @@ const mizuno4 = () => {
   );
 };
 
-export default mizuno4;
+export default mizuno6;
