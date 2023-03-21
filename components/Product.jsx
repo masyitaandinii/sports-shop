@@ -1,13 +1,32 @@
-import React from 'react';
-import mizuno1Img from '../public/assets/projects/mizuno1.png';
-import mizuno2Img from '../public/assets/projects/mizuno2.png'
-import mizuno3Img from '../public/assets/projects/mizuno3.png'
-import mizuno4Img from '../public/assets/projects/mizuno4.png'
-import mizuno5Img from '../public/assets/projects/mizuno5.png'
-import mizuno6Img from '../public/assets/projects/mizuno6.png'
+import React, { useEffect, useState } from 'react';
+// import mizuno1Img from '../public/assets/projects/mizuno1.png';
+// import mizuno2Img from '../public/assets/projects/mizuno2.png'
+// import mizuno3Img from '../public/assets/projects/mizuno3.png'
+// import mizuno4Img from '../public/assets/projects/mizuno4.png'
+// import mizuno5Img from '../public/assets/projects/mizuno5.png'
+// import mizuno6Img from '../public/assets/projects/mizuno6.png'
 import ProductItem from './ProductItem';
+import data from "../data.json"
 
 const Product = () => {
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    try {
+      const fetchData = async () => {
+        const response = await fetch(
+          "https://api.jsonbin.io/v3/b/640ee247ace6f33a22edea39"
+        );
+        const data = await response.json();
+        setData(data.record);
+      };
+      fetchData();
+    } catch (err) {
+      console.log(err);
+    }
+  }, []);
+  
+
   return (
     <div id='products' className='w-full'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
@@ -15,7 +34,18 @@ const Product = () => {
           Trending
         </p>
         <div className='grid md:grid-cols-2 gap-8'>
-          <ProductItem
+          {data.map((item)=> {
+            return(
+              <ProductItem
+            title={item.nama}
+            backgroundImg ={item.pict}
+            productUrl={`mizuno${item.id}`}
+            price={item.price}
+
+          />
+            )
+          })}
+          {/* <ProductItem
             title='MIZUNO MORELIA SALA CLASSIC TF-HIGH RISK RED/WHITE/SILVER'
             backgroundImg ={mizuno1Img}
             productUrl='/mizuno1'
@@ -49,15 +79,9 @@ const Product = () => {
             productUrl='/mizuno5'
             price='Rp 1.199.800'
 
-          />
+          /> */}
 
-          <ProductItem
-            title='MIZUNO WAVE RIDER 26 2E-SUPER SONIC/ICE WATER/CHERRY TOMATO'
-            backgroundImg ={mizuno6Img}
-            productUrl='/mizuno6'
-            price='Rp 1.279.840'
-
-          />
+          
         </div>
       </div>
     </div>

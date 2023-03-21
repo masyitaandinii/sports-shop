@@ -1,0 +1,68 @@
+[
+    {
+      "id": "1",
+      "name": "MIZUNO MORELIA SALA CLASSIC TF-HIGH RISK RED/WHITE/SILVER",
+      "price": 1.099800,
+      "pict": "/assets/projects/mizuno1.png",
+      "tag": "ELITE FIT",
+      "description": "This lightweight. flexible boot is perfect for indoor futsal. It has a last specialized for futsal and an IN sole that gives a barefoot feeling. The boot is made with high-quality kangaroo leather and has the MORELIA II fit.",
+      "colour": "Blue",
+      "category": "Football",
+      "Gender": "Women"
+    },
+    {
+        "id": "2",
+        "name": "MIZUNO WAVE THUNDERSTORM-WHITE/HOT CORAL/801 C",
+        "price": 1.279840,
+        "pict": "/assets/projects/mizuno2.png",
+        "tag": "FURTHER CUSHIONING USP",
+        "description": "This shoe is perfect for players seeking something more advanced than the entry level model. It features a design emulating the top model, a softer fit for stress-free wear, and a flat sole for excellent stability and cushioning as well as cushioned injection midsole.",
+        "colour": "White",
+        "category": "Indoor",
+        "Gender": "Women"
+      },
+      {
+        "id": "3",
+        "name": "MIZUNO MORELIA NEO III B JAPAN-BLUE CURACAO/GALAXY SILVER/BLUE CURACAO",
+        "price":  3.999800,
+        "pict": "/assets/projects/mizuno3.png",
+        "tag": "ULTIMATE BAREFOOT & FEEL SPEED MD",
+        "description": "Get the ultimate durable fit that‘s so comfortable and lightweight, it feels like you‘re barefoot. Has all thepremium features you want including the external heel counter, high-quality K-Leather, and engineered fit last for a shoe that is truly worthy of the label‚ Made in Japan.",
+        "colour": "Blue",
+        "category": "Football",
+        "Gender": "Women"
+      },
+      {
+        "id": "4",
+        "name": "MIZUNO WAVE CLAW 2-SNOW WHITE/PEACE BLUE/DRIVEN PINK",
+        "price": 1.439840,
+        "pict": "/assets/projects/mizuno4.png",
+        "tag": "SPEED & LIGHT WEIGHT",
+        "description": "By using a separate sole, it features a light weight and enables smooth starts. MIZUNO ENERZY Foam: Equipped with MIZUNO ENERZY at the ball of the foot for excellent cushioning and energy return. Supports sudden starts during play by absorbing shock when making contact with the ground and high energy return. New Heel Structure: Features an enhanced fit on the foot through a review of the insertion method of the heel sponge.",
+        "colour": "White",
+        "category": "Badminton",
+        "Gender": "Women"
+      },
+      {
+        "id": "5",
+        "name": "MIZUNO WAVE THUNDERSTORM MID-WHITE/GOLD/SNOW WHITE",
+        "price": 1.619820,
+        "pict": "/assets/projects/mizuno5.png",
+        "tag": "FAST AS LIGHTNING.",
+        "description": "This shoe is perfect for players seeking something more advanced than the entry level model. Mizuno wave combins stability and cushioning for the heel, while plate supports quicker movement",
+        "colour": "White",
+        "category": "Indoor",
+        "Gender": "Women"
+      },
+      {
+        "id": "6",
+        "name": "MIZUNO WAVE RIDER 26 2E-SUPER SONIC/ICE WATER/CHERRY TOMATO",
+        "price": 1.279840,
+        "pict": "/assets/projects/mizuno6.png",
+        "tag": "SMOOTH & STABIL",
+        "description": "This shoe is perfect from beginners to dedicated runners training for marathons. The MIZUNOThis shoe is perfect from beginners to dedicated runners training for marathons. The MIZUNOENERZY midsole is 2 mm thicker than the previous model, boosting the cushioning and energy return,by giving a softer feel, and providing a spring-like propulsion. Enjoy the signature running comfort ofWAVE RIDER with enhanced smoothness and stability.",
+        "colour": "Blue",
+        "category": "Runner",
+        "Gender": "Women"
+      }
+]
